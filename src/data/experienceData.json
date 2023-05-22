@@ -1,0 +1,38 @@
+[
+    {
+    "experienceName" : "Nom de l'experience",
+    "enterprise": "Nom de l'entreprise", 
+    "eDate": "Date", 
+    "eDescription" : "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
+    "competence1" : "Dynamique", 
+    "competence2" : "Esprit d'équipe", 
+    "competence3" : "Organisé"
+    }, 
+    {
+        "experienceName" : "Nom de l'experience",
+        "enterprise": "Nom de l'entreprise", 
+        "eDate": "Date", 
+        "eDescription" :"Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
+        "competence1" : "Dynamique", 
+        "competence2" : "Esprit d'équipe", 
+        "competence3" : "Organisé"
+        }, 
+        {
+            "experienceName" : "Nom de l'experience",
+            "enterprise": "Nom de l'entreprise", 
+            "eDate": "Date", 
+            "eDescription" : "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
+            "competence1" : "Dynamique", 
+            "competence2" : "Esprit d'équipe", 
+            "competence3" : "Organisé"
+            },
+            {
+                "experienceName" : "Nom de l'experience",
+                "enterprise": "Nom de l'entreprise", 
+                "eDate": "Date", 
+                "eDescription" : "Lorem ipsum dolor sit amet consectetur .Ea, dolores sequi. dolor sit amet consectetu",
+                "competence1" : "Dynamique", 
+                "competence2" : "Esprit d'équipe", 
+                "competence3" : "Organisé"
+                }
+]

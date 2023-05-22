@@ -6,12 +6,11 @@ import SmsIcon from '@mui/icons-material/Sms';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
 import Avatar from '@mui/material/Avatar';
 import Chip from '@mui/material/Chip';
-
 function ContratCard( contratElem) {
     return (
         <Stack  key={contratElem.type} display='flex' flexDirection='row' flexWrap='wrap' justifyContent='space-between' alignContent='center'>
         <Stack>
-        <Typography level="body3" textColor='#EE5F36'><Chip variant="outlined" sx={{border:'none', color: '#F55F24'}} avatar={<Avatar sx={{background:'none'}}><DescriptionIcon sx={{color:'#F55F24'}} /></Avatar>} label="Type de contrat" /></Typography>
+        <Typography level="body3" textColor='#EE5F36'><Chip variant="outlined" sx={{border:'none', color: '#F55F24'}} avatar={<Typography sx={{background:'none'}}><DescriptionIcon sx={{color:'#F55F24'}} /></Typography>} label="Type de contrat" /></Typography>
         <Typography level="body2" alignSelf='center'>{contratElem.type}</Typography>
     </Stack>
 

@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Box } from '@mui/joy';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode >
     <App />
+    <Box backgroundColor='white' padding='10px' marginBottom='0' marginTop='15px'>
+          <Footer></Footer>
+    </Box>
   </React.StrictMode>
 );
 

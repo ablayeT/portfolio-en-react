@@ -1,13 +1,13 @@
-import { Stack } from '@mui/material';
+import { Stack} from '@mui/material';
 import './App.css';
 import Infos from './components/Infos';
-// import Layout  from './components/Layout';
+
 
 function App() {
   return (
-    <Stack >
+    <Stack display='flex' alignItems='center'  width='90%' margin='auto' > 
       < Infos />
-      {/* <Layout /> */}
+     
     </Stack>
   );
 }

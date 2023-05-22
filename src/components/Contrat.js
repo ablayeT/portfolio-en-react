@@ -10,9 +10,9 @@ export function Contrat () {
        
     }
 
-    return <Box>
-        {contrat.map(contratElem=>  {
-            return <ContratCard  callBack={newContrat} contratElement={contratElem} />
+    return <Box flexWrap='wrap'>
+        {contrat.map((contratElem, index)=>  {
+            return <ContratCard key={index} callBack={newContrat} contratElement={contratElem} />
         })}
             
            </Box>

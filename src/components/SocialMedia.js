@@ -12,9 +12,9 @@ function SocialMedia () {
     return (<Stack display='flex' flexDirection='column'  alignItems='center'margin='10px' justifyContent='center'>
         <Box textAlign='center' marginBottom='20px'>Pour me donner plus de posibilité, n'hésitez pas à partager mon CV</Box>
       <Box display='flex' gap='40px'> 
-     <IconButton color="danger"  ><InstagramIcon sx={{color : '#FFFFFF'}} /></IconButton>
-     <IconButton color="danger"><FacebookIcon sx={{color : '#FFFFFF'}} /></IconButton>
-     <IconButton color="danger"><TwitterIcon sx={{color : '#FFFFFF'}}  /></IconButton>
+     <IconButton color="danger" sx={{background:'rgba(238, 95, 54, 0.2)', borderRadius:'50px'}} ><InstagramIcon sx={{color : '#FFFFFF'}} /></IconButton>
+     <IconButton color="danger" sx={{background:'rgba(238, 95, 54, 0.2)',borderRadius:'50px'}}><FacebookIcon sx={{color : '#FFFFFF'}} /></IconButton>
+     <IconButton color="danger" sx={{background:'rgba(238, 95, 54, 0.2)',borderRadius:'50px'}}><TwitterIcon sx={{color : '#FFFFFF'}}  /></IconButton>
       </Box>
     </Stack>
     )
