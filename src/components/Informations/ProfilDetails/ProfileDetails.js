@@ -1,10 +1,10 @@
 import { Stack} from "@mui/material"
-import { NameAdresse } from "./NameAdresse"
-import { Contrat } from "./Contrat"
-import { PresentationText } from "./PresentationText"
-import { Competence } from "./Competence"
+import { NameAdresse } from "./NameAdress/NameAdresse"
+import { Contrat } from "./contrat/Contrat"
+import { PresentationText } from "./Presentation/PresentationText"
+import { Competence } from "./Competence/Competence"
 function ProfileDetails () {
-    return <Stack display='flex' gap='20px' flexWrap='wrap'>
+    return <Stack display='flex' gap='42px' flexWrap='wrap'>
         <NameAdresse />
         <Contrat flexWrap='wrap'/>
         <PresentationText />

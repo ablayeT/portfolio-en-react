@@ -1,7 +1,7 @@
 import { Box } from '@mui/joy';
-import dataContrat  from '../data/contratData.json'
+import dataContrat  from '../../../../data/contratData.json'
 import { useState } from "react"
-import ContratCard from "../utils/ContratCard";
+import ContratCard from "../../../Utils/Cards/ContratCard";
 export function Contrat () {
     const [contrat, setContrat] = useState(dataContrat)
 

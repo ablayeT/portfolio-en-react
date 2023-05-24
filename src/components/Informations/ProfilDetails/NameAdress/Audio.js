@@ -1,8 +1,6 @@
 import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import { Box, Typography } from '@mui/joy';
-import  DynamicCSSVariables  from '../components/DynamicCSSVariables';
-
-
+import  DynamicCSSVariables  from '../../../Utils/DynamicCSSVariables';
 
 function Audio () {
     return( <Box display='flex' alignItems='center' width='90%' gap='15px' >
