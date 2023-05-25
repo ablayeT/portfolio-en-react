@@ -5,9 +5,9 @@ import  DynamicCSSVariables  from '../../../Utils/DynamicCSSVariables';
 function Audio () {
     return( <Box display='flex' alignItems='center' width='90%' gap='15px' >
         <PlayCircleIcon sx={{color:'#F55F24'}} opacity ={0.5} />
-        <Typography level='body3' sx={{color:'#F55F24'}}>00:00</Typography>
+        <Typography fontWeight= '400px' fontFamily='Nunito sans' lineHeight='13.64px' fontSize='10px' level='body3' sx={{color:'#F55F24'}}>00:00</Typography>
             <DynamicCSSVariables />
-        <Typography level='body3'>02:10</Typography>
+        <Typography fontFamily='Nunito sans' fontWeight='400' fontSize='10px'  level='body3'>02:10</Typography>
     </Box>
     )
 }
