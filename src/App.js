@@ -1,31 +1,33 @@
-import { Stack, Box} from '@mui/material';
-import './App.css';
-import Infos from './components/Informations/GeneralProfilInfos';
-import Presentation from './test';
-import Footer from './components/Footer/Footer';
-import Recommandations from './components/Recommandations/Recommandations';
-import Formation from './components/Formations/Formation';
-import Experience from './components/Experiences/Experience';
-
+import { Stack, Box } from "@mui/material";
+import "./App.css";
+import Infos from "./components/Informations/Index";
+import Footer from "./components/Footer/Index";
+import Recommandations from "./components/Recommandations/Index";
+import Formation from "./components/Formations/Index";
+import Experience from "./components/Experiences/Index";
 
 function App() {
   return (
-    <Stack display='flex'   gap='20px' width='80%' margin='auto' > 
-     <Presentation />
-      <Box>
-      < Infos />
+    <Stack display="flex" gap="20px" width="100%"  margin="auto">
+      <Box  padding='20px' display='flex' justifyContent='center'>
+        <Infos />
       </Box>
       <Box>
-          <Recommandations />
-         </Box>
-         <Box   width='100%' padding='20px'  >
-          <Formation />
-         </Box>
-         <Box width='100%' padding='20px' >
-          <Experience />
-         </Box>
-      <Box backgroundColor='white' width='100%' borderRadius='10px' marginTop='15px'>
-      <Footer></Footer>
+        <Recommandations />
+      </Box>
+      <Box display='flex' justifyContent='center' padding="20px" >
+        <Formation />
+      </Box>
+      <Box display='flex' justifyContent='center' padding="20px" >
+        <Experience />
+      </Box>
+      <Box
+        backgroundColor="white"
+        width="100%"
+        borderRadius="10px"
+        marginTop="15px"
+      >
+        <Footer></Footer>
       </Box>
     </Stack>
   );

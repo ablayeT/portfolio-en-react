@@ -1,11 +1,11 @@
 .container {
-    display: flex;
-    text-align: left;
+  display: flex;
+  text-align: left;
 }
 
 .imgBox {
-    border: 1px solid rgb(67, 16, 16);
+  border: 1px solid rgb(67, 16, 16);
 }
 .imgBox > img {
-    width: 30%;
+  width: 30%;
 }
