@@ -16,7 +16,7 @@ function Formation() {
       gap="20px"
       
     >
-      <Typography  marginLeft="20px"  level="h4">
+      <Typography  marginLeft="50px"  level="h4">
         FORMATIONS
       </Typography>
       <Stack display="flex" flexDirection="row" flexWrap="wrap" gap="60px">
