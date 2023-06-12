@@ -1,10 +1,10 @@
 import { Stack, Box } from "@mui/material";
 import "./App.css";
-import Infos from "./components/Informations/Index";
-import Footer from "./components/Footer/Index";
-import Recommandations from "./components/Recommandations/Index";
-import Formation from "./components/Formations/Index";
-import Experience from "./components/Experiences/Index";
+import Infos from "./components/Informations";
+import Footer from "./components/Footer";
+import Recommandations from "./components/Recommandations";
+import Formation from "./components/Formations/index";
+import Experience from "./components/Experiences/index";
 
 function App() {
   return (

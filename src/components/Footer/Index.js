@@ -1,7 +1,12 @@
 import { Box, Typography } from "@mui/joy";
-import Buttons from "../Utils/Buttons";
+import Buttons from "../Utils/Buttons"
 
 function Footer() {
+
+   function handleClick (event) {
+    event.preventDefault()
+  window.location = 'mailto:abdoulaye@entourage.social'
+   }  
   return (
     <Box
       display="flex"
@@ -15,7 +20,7 @@ function Footer() {
       <Typography level="h6" fontSize="16px">
         Comment pouvez vous me contacter ?
       </Typography>
-      <Buttons />
+      <Buttons onChange={handleClick} />
     </Box>
   );
 }

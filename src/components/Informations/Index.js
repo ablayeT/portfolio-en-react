@@ -1,5 +1,5 @@
 // import Box from '@mui/material/Box'
-import ProfileDetails from "./ProfilDetails/Index";
+import ProfileDetails from "./ProfilDetails";
 import SocialMedia from "./ImageSocialMedia/SocialMedia";
 import ImgBox from "./ImageSocialMedia/ImgBox";
 import { Box, Stack } from "@mui/material";

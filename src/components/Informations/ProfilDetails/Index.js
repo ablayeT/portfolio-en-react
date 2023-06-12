@@ -1,8 +1,8 @@
 import { Stack } from "@mui/material";
-import { NameAdresse } from "./NameAdressAudio/Index";
-import { Contrat } from "./contrat/Index";
+import { NameAdresse } from "./NameAdressAudio";
+import { Contrat } from "./contrat";
 import { PresentationText } from "./Presentation/Index";
-import { Competence } from "./Competence/Index";
+import { Competence } from "./Competence";
 function ProfileDetails() {
   return (
     <Stack display="flex" gap="42px"  flexWrap="wrap">

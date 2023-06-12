@@ -1,17 +1,17 @@
 import { Box } from "@mui/joy";
-import React, { Component } from "react";
 import Button from "@mui/material/Button";
 
-class Buttons extends Component {
-  render() {
+function Buttons ({onChange}) {
+  console.log(onChange)
+
     return (
       <Box>
-        <Button sx={{ background: "#F55F24" }} variant="contained">
+        <Button sx={{ background: "#F55F24" }} onClick={onChange} variant="contained">
           CONTACT
         </Button>
       </Box>
     );
   }
-}
+
 
 export default Buttons;
