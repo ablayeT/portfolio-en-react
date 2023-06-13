@@ -12,7 +12,6 @@ function Formation() {
       display="flex"
       width="100%"
       padding="20px 0 20px 0"
-      border ='1px solid blue'
       flexDirection="column"
       gap="20px"
       
@@ -20,7 +19,7 @@ function Formation() {
       <Typography  marginLeft="50px"  level="h4">
         FORMATIONS
       </Typography>
-      <Stack display="flex" flexDirection="row" margin='0 10px' border='1px solid green' flexWrap="wrap" gap="60px">
+      <Stack display="flex" flexDirection="row" margin='0 10px' flexWrap="wrap" gap="60px">
         {formations.map((formationItem, index) => {
           return (
             <CardFormationExperience

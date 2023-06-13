@@ -3,11 +3,11 @@ import CardModulesCompetences from "./CardModulesCompetences";
 
 function CardFormationExperience({ name, structure, date, description, tags }) {
   return (
-    <Box display="flex" border='1px solid yellow' flexDirection="column" margin="auto" flexWrap="wrap">
+    <Box display="flex"  flexDirection="column" margin="auto" flexWrap="wrap">
       <Card
         variant="outlined"
         sx={{ width: "60%", margin: "auto", border: "1px solid whitesmoke" }}
-        border ='px solid red'
+      
       >
         <Typography level="h2" fontSize="md" sx={{ mb: 0.5 }}>
           {name}
