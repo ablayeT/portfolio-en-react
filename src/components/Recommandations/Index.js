@@ -29,6 +29,7 @@ class Recommandations extends Component {
             <FormatQuoteSharpIcon />
           </Typography>
         </Typography>
+        
       </Box>
     );
   }
