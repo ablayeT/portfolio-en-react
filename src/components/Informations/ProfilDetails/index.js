@@ -1,7 +1,7 @@
 import { Stack } from "@mui/material";
 import { NameAdresse } from "./NameAdressAudio";
 import { Contrat } from "./contrat";
-import { PresentationText } from "./Presentation/Index";
+import { PresentationText } from "./Presentation";
 import { Competence } from "./Competence";
 function ProfileDetails() {
   return (

@@ -3,8 +3,8 @@ import "./App.css";
 import Infos from "./components/Informations";
 import Footer from "./components/Footer";
 import Recommandations from "./components/Recommandations";
-import Formation from "./components/Formations/index";
-import Experience from "./components/Experiences/index";
+import Formation from "./components/Formations";
+import Experience from "./components/Experiences";
 
 function App() {
   return (
