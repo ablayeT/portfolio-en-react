@@ -1,12 +1,11 @@
 import { Box, Typography } from "@mui/joy";
-import Buttons from "../Utils/Button"
+import Button from "../Utils/Button";
 
 function Footer() {
-
-   function handleClick (event) {
-    event.preventDefault()
-  window.location = 'mailto:abdoulaye@entourage.social'
-   }  
+  function handleClick(event) {
+    event.preventDefault();
+    window.location = "mailto:abdoulaye@entourage.social";
+  }
   return (
     <Box
       display="flex"
@@ -15,12 +14,20 @@ function Footer() {
       gap="35px"
       padding="26px"
       alignItems="center"
-      
     >
-      <Typography level="h6" fontSize="16px">
+      <Typography
+        sx={{
+          fontFamily: "Quicksand",
+          color: "#484848",
+          fontStyle: "normal",
+          fontWeight: "700",
+          fontSize: "16px",
+          lineHeight: "20px",
+        }}
+      >
         Comment pouvez vous me contacter ?
       </Typography>
-      <Buttons onChange={handleClick} label='contact'/>
+      <Button onChange={handleClick} label="contact" />
     </Box>
   );
 }

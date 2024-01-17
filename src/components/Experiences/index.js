@@ -1,30 +1,44 @@
-import { Box, Stack, Typography } from "@mui/joy";
+import { Box } from "@mui/joy";
 import React from "react";
+import { Helmet } from "react-helmet";
 import experiences from "../../data/experienceData.json";
 import CardFormationExperience from "../Utils/Cards/CardFormationExperience";
-// import CardFormationExperience from '../utils/CardFormationExperience';
 
 function Experience() {
   return (
-    <Box  
-    backgroundColor="white"
-    borderRadius="10px"
-    alignSelf='center'
-    display="flex"
-    width="100%"
-    padding="20px 0 20px 0"
-    flexDirection="column"
-    gap="20px"
+    <Box
+      backgroundColor="white"
+      borderRadius="30px"
+      display="flex"
+      width="100%"
+      padding="20px"
+      flexDirection="column"
+      paddingBottom="30px"
     >
-      <Typography marginLeft="50px" level="h4">
-        EXPERIENCES
-      </Typography>
-      <Stack
+      <Helmet>
+        <meta
+          name="description"
+          content="Auparavant, entrepreneur,commerçant de détails, profeseur d'anglais, préparateur de commande, je suis aujourd'hui en alternance dans le cadre d'une formaion en développement web et mobile."
+        />
+      </Helmet>
+      <Box
+        sx={{
+          fontFamily: "Nunito sans",
+          textAlign: "center",
+          fontWeight: "700",
+          fontSize: "16px",
+          fontStyle: "normale",
+          margin: "20px",
+        }}
+      >
+        EXPERIENCES PROFESSIONNELLES
+      </Box>
+      <Box
         display="flex"
         flexDirection="row"
         flexWrap="wrap"
         justifyContent="center"
-        gap="60px"
+        gap="20px"
       >
         {experiences.map((experienceItem, index) => {
           return (
@@ -32,13 +46,13 @@ function Experience() {
               key={index}
               name={experienceItem.experienceName}
               structure={experienceItem.enterprise}
-              date={experienceItem.date}
+              date={experienceItem.eDate}
               description={experienceItem.eDescription}
               tags={experienceItem.competences}
             />
           );
         })}
-      </Stack>
+      </Box>
     </Box>
   );
 }

@@ -1,25 +1,46 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import CardFormationExperience from "../Utils/Cards/CardFormationExperience";
-import { Box, Stack, Typography } from "@mui/joy";
+import { Box } from "@mui/joy";
 import formations from "../../data/formationData.json";
 
 function Formation() {
   return (
     <Box
       backgroundColor="white"
-      borderRadius="10px"
-      alignSelf='center'
+      borderRadius="30px"
       display="flex"
       width="100%"
-      padding="20px 0 20px 0"
+      padding="20px"
       flexDirection="column"
-      gap="20px"
-      
+      paddingBottom="30px"
     >
-      <Typography  marginLeft="50px"  level="h4">
+      <Helmet>
+        <meta
+          name="description"
+          content="titulaire d'un Master II en littérature et civilisation américaine et caribéenne, je me suis d'abord formé en autodidacte aux bases des langages web, avant de me lancer dans une formation diplômante. Je me forme en alternance afin de mieux maitriser les ficels de ce métier."
+        />
+      </Helmet>
+      <Box
+        sx={{
+          fontFamily: "Nunito sans",
+          textAlign: "center",
+          fontWeight: "700",
+          fontSize: "16px",
+          fontStyle: "normale",
+          margin: "20px",
+        }}
+      >
         FORMATIONS
-      </Typography>
-      <Stack display="flex" flexDirection="row" margin='0 10px' flexWrap="wrap" gap="60px">
+      </Box>
+      <Box
+        display="flex"
+        flexWrap="wrap"
+        gap="20px"
+        justifyContent="center"
+        width="auto"
+        height="100%"
+      >
         {formations.map((formationItem, index) => {
           return (
             <CardFormationExperience
@@ -32,7 +53,7 @@ function Formation() {
             />
           );
         })}
-      </Stack>
+      </Box>
     </Box>
   );
 }

@@ -3,40 +3,88 @@ import Typography from "@mui/joy/Typography";
 
 export function PresentationText() {
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" gap="20px">
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      justifyContent="left"
+      gap="20px"
+    >
       <Typography
-        level="body2"
-        justifyContent="center"
-        fontWeight="bold"
-        fontSize="12.5px"
-        textAlign="left"
+        sx={{
+          color: "#484848",
+          textAlign: "left",
+          fontSize: "16px",
+          fontFamily: "Nunito sans",
+          lineHeight: "19.1px",
+          fontWeight: "700",
+          width: "100%",
+        }}
       >
-        J'aimerais travailler en{" "}
-        <Typography level="body3" textColor="#EE5F36" fontWeight="bold">
-          
+        Avec une passion pour le développement web et mobile, je vise un{" "}
+        <Typography level="body2" textColor="#EE5F36" fontWeight="bold">
           CDI{" "}
         </Typography>
-        dans l'informatique plus précisement dans le développement web et mobile en tant que 
-        {" "}
-        <Typography level="body3" textColor="#EE5F36">développeur intégrateur web.</Typography>{" "}
+        en tant que{" "}
+        <Typography level="body2" textColor="#EE5F36">
+          développeur intégrateur web,
+        </Typography>{" "}
+        Ma Maîtrise des langages clés, des framework comme React, et mon
+        portfolio varié témoigne de ma capacité à créer des expériences
+        numériques exceptionnelles.Prêt à relever de nouveaux défis au sein
+        d'une équipe dynamique !
       </Typography>
-      <Box display="flex"  flexDirection='column' gap='10px'>
-        <Typography  paragraph="true">
-          enfant d'une famille de 8, je suis arrivé en France en 2018 dans le
-          cadre de mon cursus dans une communauté religieuse où j'ai reçu une
-          belle et riche formation humaine, intellectuelle et spirituelle.
+      <Box display="flex" flexDirection="column" gap="10px">
+        <Typography
+          sx={{
+            fontSize: "14px",
+            color: "#484848",
+            fontStyle: "normal",
+            fontWeight: "400",
+            fontFamily: "Nunito sans",
+          }}
+        >
+          Je suis né au Sénégal et je suis titulaire d'un Master 2 en
+          littérature et civilisation américaine et caribéenne.
         </Typography>
-        <Typography     paragraph="true">
-          Après un temps de réflexion, j'ai choisi de me réorienter et
-          d'intégrer un parcours de formation qui puisse me permettre de
-          retrouver rapidement une voie professionnelle.
+        <Typography
+          sx={{
+            fontSize: "14px",
+            color: "#484848",
+            fontStyle: "normal",
+            fontWeight: "400",
+            fontFamily: "Nunito sans",
+          }}
+        >
+          Après le master, je me suis formé en autodidacte avant de créer une
+          société multimédia tout en enseignant l'anglais à des lycéens,
+          collégiens et particuliers. Je suis arrivé en France début 2020 et
+          j'ai travaillé comme préparateur de commande dans une épicerie à
+          Montreuil.
         </Typography>
-        <Typography  paragraph="true">
-          Je me tourne donc vers LinkedOut pour bénéficier de son accompagnement
-          dans ma recherche d'un emploi fiable, stable et durable afin de
-          réaliser mes projets d'avenir.
+        <Typography
+          sx={{
+            fontSize: "14px",
+            color: "#484848",
+            fontStyle: "normal",
+            fontWeight: "400",
+            fontFamily: "Nunito sans",
+          }}
+        >
+          Je me suis tourné donc vers LinkedOut pour bénéficier de son
+          accompagnement dans ma recherche d'un emploi fiable, stable et durable
+          afin de réaliser mes projets d'avenir. Je travail en tant qu'alternant
+          développeur web et web mobile chez Entourage jusqu'en Octobre 2023.
         </Typography>
-        <Typography   paragraph="true">
+        <Typography
+          sx={{
+            fontSize: "14px",
+            color: "#484848",
+            fontStyle: "normal",
+            fontWeight: "400",
+            fontFamily: "Nunito sans",
+          }}
+        >
           Mon parcours atypique témoigne de ma grande polyvalence, de mon
           adaptabilité, d'une grande résilience et d'une détermination sans
           faille à atteindre mon but.
