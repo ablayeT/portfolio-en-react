@@ -1,6 +1,5 @@
 import { Box } from "@mui/joy";
 import MUIButton from "@mui/material/Button";
-import "../../assets/styles/button.css";
 
 function Button({ onChange, label }) {
   return (
