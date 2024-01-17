@@ -8,22 +8,24 @@ import Experience from "./components/Experiences";
 
 function App() {
   return (
-    <Stack display="flex" gap="20px" width="100%"  margin="auto">
-      <Box  padding='20px' display='flex' justifyContent='center'>
+    <Stack display="flex" flexWrap="wrap" gap="20px" width="100%" margin="auto">
+      <Box padding="20px" display="flex" justifyContent="center">
         <Infos />
       </Box>
       <Box>
         <Recommandations />
       </Box>
-      <Box display='flex' justifyContent='center' padding="20px" >
-        <Formation />
-      </Box>
-      <Box display='flex' justifyContent='center' padding="20px" >
+      <Box display="flex" justifyContent="center" padding="10px">
         <Experience />
       </Box>
+      <Box display="flex" justifyContent="center" padding="10px">
+        <Formation />
+      </Box>
+
       <Box
         backgroundColor="white"
-        width="100%"
+        width="90%"
+        margin="auto"
         borderRadius="10px"
         marginTop="15px"
       >
