@@ -1,3 +1,4 @@
+import React from "react";
 import { Box } from "@mui/material";
 import Typography from "@mui/joy/Typography";
 
@@ -21,18 +22,20 @@ export function PresentationText() {
           width: "100%",
         }}
       >
-        Avec une passion pour le développement web et mobile, je vise un{" "}
+        Avec une solide expérience dans le développement web et mobile, je suis
+        à la recherche d'une{" "}
         <Typography level="body2" textColor="#EE5F36" fontWeight="bold">
-          CDI{" "}
+          ALTERNANCE{" "}
         </Typography>
-        en tant que{" "}
+        dans la{" "}
         <Typography level="body2" textColor="#EE5F36">
-          développeur intégrateur web,
+          cybersécurité,
         </Typography>{" "}
-        Ma Maîtrise des langages clés, des framework comme React, et mon
-        portfolio varié témoigne de ma capacité à créer des expériences
-        numériques exceptionnelles.Prêt à relever de nouveaux défis au sein
-        d'une équipe dynamique !
+        un domaine dans laquelle, je souhaite me spécialiser. Ma Maîtrise des
+        langages clés, des framework comme React, et mon portfolio varié
+        témoigne de ma capacité à créer des expériences numériques innovantes et
+        sécurisées .Prêt à m'investir pleinement et à apprendre au sein d'une
+        équipe dynamique et engagée dans la cybersécurité !
       </Typography>
       <Box display="flex" flexDirection="column" gap="10px">
         <Typography
@@ -59,8 +62,8 @@ export function PresentationText() {
           Après le master, je me suis formé en autodidacte avant de créer une
           société multimédia tout en enseignant l'anglais à des lycéens,
           collégiens et particuliers. Je suis arrivé en France début 2020 et
-          j'ai travaillé comme préparateur de commande dans une épicerie à
-          Montreuil.
+          j'ai continué à me former en autodidacte avant d'intégrer la formation
+          de développeur.
         </Typography>
         <Typography
           sx={{
@@ -71,10 +74,9 @@ export function PresentationText() {
             fontFamily: "Nunito sans",
           }}
         >
-          Je me suis tourné donc vers LinkedOut pour bénéficier de son
-          accompagnement dans ma recherche d'un emploi fiable, stable et durable
-          afin de réaliser mes projets d'avenir. Je travail en tant qu'alternant
-          développeur web et web mobile chez Entourage jusqu'en Octobre 2023.
+          Je me suis tourné donc vers Entourage-pro(Ex LinkedOut) pour
+          bénéficier de son accompagnement dans ma recherche d'un emploi fiable,
+          stable et durable afin de réaliser mes projets d'avenir.
         </Typography>
         <Typography
           sx={{

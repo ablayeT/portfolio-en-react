@@ -1,3 +1,4 @@
+import React from "react";
 import profilImage from "../../../assets/images/photo-profil.jpeg";
 import { Stack, CardMedia } from "@mui/material";
 function ImgBox() {

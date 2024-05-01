@@ -1,3 +1,4 @@
+import React from "react";
 import { Stack, Box } from "@mui/material";
 import "./App.css";
 import Infos from "./components/Informations";
